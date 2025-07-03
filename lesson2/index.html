@@ -34,6 +34,13 @@
         // Cập nhật giá trị của y
         y = 30;
         console.log("Giá trị của y sau khi cập nhật: ", y);
+    
+    // Lỗi: Let không thể khai báo lại trong cùng 1 phạm vi
+        let city = "Thái Bình";
+        // let city = "Hưng Yên"; => lỗi
+
+        // Sửa đúng
+        city = "Hưng Yên";
     </script>
 
     <!-- const: Hằng số -->
@@ -47,7 +54,7 @@
         console.log("Ngoài khối z = ", z);
         // const z =20; => lỗi
         // z = 20;
-        // console.log("z = ", z); => lỗi
+        // console.log("z = ", z); => lỗi không thể gán lại giá trị
 
         // Lỗi: const phải gán giá trị ngay khi khai báo
         // const PI; //=> lỗi
