@@ -66,6 +66,17 @@
 
      <!-- var: toàn cục/ hàm, nên sẽ bị đè giá trị
       let, const: trong phạm vi khối (block), giá trị trong khối {} không ảnh hưởng ra ngoài -->
-</body>
+
+    <script>
+        // Lỗi: const không thể gán lại giá trị
+        // const user = "Diệu";
+        // user = "Mai"; =>lỗi
+
+        // Sửa đúng: dùng let nếu cần thay đổi
+        let user = "Diệu";
+        user = "Mai";
+    </script>
+
+    </body>
 
 </html>
