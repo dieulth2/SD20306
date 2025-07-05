@@ -58,9 +58,13 @@
         console.log("Vị trí xuất hiện đầu tiên của 'u' trong từ 'su su': ", "su su".indexOf('u'));
         console.log("Vị trí xuất hiện cuối cùng của 'u' trong từ 'su su': ", "su su".lastIndexOf('u'));
         // slice(start, end): Cắt chuỗi từ vị trí start đến trước end.
-        console.log(name.slice(0,4));
+        console.log(name.slice(0, 4));
         console.log(name.slice(-6));
-        
+        // Thay thế chuỗi con đầu tiên: replace()
+        console.log("Thay thế Javascript thành JS trong 'Hello Javascript': ", "Hello Javascript".replace("Javascript", "JS"));
+        // Thay thế tất cả: replaceAll()
+        console.log("Thay thế tất cả Javascript thành JS trong 'Javascript & Javascript': ", "Javascript & Javascript".replaceAll("Javascript", "JS"));
+
     </script>
 </body>
 
